@@ -1,0 +1,313 @@
+
+@media only screen and (max-width: 992px) {
+
+	.row .md-cl-0{
+		display: none
+	}
+	.row .md-cl-1{
+		width: 16.66% ;
+	}
+	.row .md-cl-2{
+		width: 33.333% ;
+	}
+	.row .md-cl-3{
+		width: 50% ;				
+	}
+	.row .md-cl-4{
+		width: 66.66% ;
+	}
+	.row .md-cl-5{
+		width: 83.33% ;
+	}
+	.row .md-cl-6{
+		width: 100% ;
+	}
+
+	#hero{
+		background-image: url('http://joaoborges.me/development/cnas/images/md/md_hero1.jpg')
+	}
+
+	#about{
+		background-image: url('http://joaoborges.me/development/cnas/images/md/md_about.jpg')
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	h2{
+		font-size: 1.7em;
+	}
+
+	h3{
+		font-size: 1.3em;
+	}
+
+	h4,
+	p{
+		font-size: 1.1em;
+	}
+
+	h5{
+		font-size: 1em;
+	}
+
+	/*HEADER*/
+	.menu-option{
+		width: 50px;
+		height: 50px;
+	}
+
+	.menu-option i{
+		font-size: 1.2em;
+	}
+
+	header{
+		width: 100%;
+		max-width: 480px;
+	}
+
+	header .extra-buttons {
+		height: 12%;
+	}
+
+	header .extra-buttons div{
+		width: 45px;
+		height: 45px;
+	}
+
+	header nav ul li{
+		float: left;
+	}
+
+	header nav ul li a{
+		width: 45px;
+		height: 45px;
+	}
+
+	header nav ul li div,
+	header nav ul li span{
+		float: left;
+	}
+
+	header nav ul li span{
+		float: left;
+		text-align: left;
+	}
+
+	/*PRODUCTS*/
+	#products .row{
+		padding: 0 2%;
+		box-sizing: border-box;
+	}
+	#products .row h1 {
+		width: 70%;
+		margin: 0 auto;
+	}
+	#products .row div {
+		margin-bottom: 1%;
+	}
+	#products .row div h5 i{
+		color: #3d57a6;
+		font-size: 1em;
+	}
+
+	#products .row div h4,
+	#products .row div h5{
+		text-align: left;
+	}
+	
+	/*ABOUT*/
+	#about .row{
+		padding: 2%;
+	}
+
+	/*NUMBERS */
+	#numbers .numbers-title{
+		padding: 0 2%;
+		text-align: left;
+	}
+	#numbers .numbers-title h1{
+		width: 80%;
+	}
+	#numbers div:nth-child(2){
+		height: auto;
+		margin-bottom: 2%;
+	}
+	#numbers div:nth-child(3){
+		height: 80%;
+	}
+	#numbers .row{
+		padding: 0 2%;
+		box-sizing: border-box;
+	}
+
+	#numbers .column{
+		width: 100%;
+		height: 21%;
+		margin: 2% 0;
+	}
+
+	#numbers .column .numbers-icon{
+		height: 100%;
+		font-size: 4em !important;
+	}
+
+	#numbers .column article{
+		height: 100%;
+		border-top: 0;
+		border-left: 1px solid #fff;
+	}
+
+	/*CONTACTS*/
+	#contacts .row > div{
+		height: 37%;
+	}
+	#contacts .row > article{
+		height: 60%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.row .sm-cl-0{
+		display: none
+	}
+	.row .sm-cl-1{
+		width: 16.66%;
+	}
+	.row .sm-cl-2{
+		width: 33.333%;
+	}
+	.row .sm-cl-3{
+		width: 50%;				
+	}
+	.row .sm-cl-4{
+		width: 66.66%;
+	}
+	.row .sm-cl-5{
+		width: 83.33%;
+	}
+	.row .sm-cl-6{
+		width: 100%;
+	}
+
+	#hero{
+		background-image: url('http://joaoborges.me/development/cnas/images/sm/sm_hero1.jpg')
+	}
+
+	#about{
+		background-image: url('http://joaoborges.me/development/cnas/images/sm/sm_about.jpg')
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	h3{
+		font-size: 1.2em;
+	}
+
+	h4,
+	p{
+		font-size: 1em;
+	}
+
+	h5{
+		font-size: 0.8em;
+	}
+
+	header{
+		right: auto;
+	}
+
+	/* PRODUCTS */
+	#products .products-title {
+		margin-bottom: 2%;
+		text-align: left;
+	}
+
+	#products .products-title h1{
+		margin: 0;
+	}
+
+	/*GALLERY*/
+	#gallery .row ul li{
+		width: 32.3%;
+		height: 24%;
+	}
+
+	#gallery .slider > ul li img{
+	max-width: 80%;
+	}
+
+	#gallery .slider > a[href='#prev-slider'] img,
+	#gallery .slider > a[href='#next-slider'] img{
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.row .lg-cl-0{
+		display: none
+	}
+	.row .lg-cl-1{
+		width: 16.66%;
+	}
+
+	.row .lg-cl-2{
+		width: 33.333%;
+	}
+
+	.row .lg-cl-3{
+		width: 50%;
+	}
+
+	.row .lg-cl-4{
+		width: 66.66%;
+	}
+
+	.row .lg-cl-5{
+		width: 83.33%;
+	}
+
+	.row .lg-cl-6{
+		width: 100%;
+	}
+
+	#hero{
+		background-image: url('http://joaoborges.me/development/cnas/images/lg/lg_hero1.jpg')
+	}
+
+	#about{
+		background-image: url('http://joaoborges.me/development/cnas/images/lg/lg_about.jpg')
+	}
+
+}
+
+@media only screen and (max-height: 480px) {
+	h1{
+		font-size: 1.8em;
+	}
+
+	h2{
+		font-size: 1.3em;
+	}
+
+	h3{
+		font-size: 1em;
+	}
+
+	h4,
+	p{
+		font-size: 0.8em;
+	}
+
+	h5{
+		font-size: 0.7em;
+	}
+}
